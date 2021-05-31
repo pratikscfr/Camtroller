@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 20 20:42:01 2020
-@author: Ankit Vats
+@author: Pratik Chandra
 @description: Game controlling with Fists in Navy blue gloves using openCV. Left Fist- Break Right Fist- acceleration
 
 
