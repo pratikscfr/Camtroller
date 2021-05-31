@@ -61,7 +61,7 @@ while True:
     mask = cv2.dilate(mask, None, iterations=2)
  
     # find contours in the mask and initialize the current
-    # (x, y) center of the orange object
+    # (x, y) center of the blue object
 
     # divide the frame into two halves so that we can have one half control the acceleration/brake 
     # and other half control the left/right steering.
