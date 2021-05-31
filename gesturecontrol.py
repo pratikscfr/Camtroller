@@ -54,7 +54,7 @@ while True:
     blurred = cv2.GaussianBlur(frame, (11, 11), 0)
     hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
     
-    # crteate a mask for the orange color and perform dilation and erosion to remove any small
+    # crteate a mask for the blue color and perform dilation and erosion to remove any small
     # blobs left in the mask
     mask = cv2.inRange(hsv, blueLower, blueUpper)
     mask = cv2.erode(mask, None, iterations=2)
