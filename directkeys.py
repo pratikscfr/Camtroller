@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 20 20:42:01 2020
-@author: Ankit Vats
+@author: Pratik Chandra
 @description: Passing input to the Keyboard(from camera).
 @Reference: #http://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
 """
